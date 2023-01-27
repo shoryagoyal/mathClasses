@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/navbar.css" />
+    <link rel="stylesheet" href="../styles/contact.css" />
+    <link rel="stylesheet" href="../styles/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-brand">
+        <div>Brand logo</div>
+        <div class="hamburger">
+          <a href="../index.html" class="link-style"
+            ><i class="bi bi-list"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="nav-links">
+        <div>
+          <a href="../index.html" class="link-style">Home</a>
+        </div>
+        <div>
+          <a href="#" class="link-style">Contact us</a>
+        </div>
+      </div>
+    </nav>
+    <div class="content">
+      <section id="form-container">
+        <div class="question-text">
+          <div>
+            <div>Have a question?</div>
+            <div>Or</div>
+            <div>Want to get more update about classes</div>
+          </div>
+        </div>
+
+        <div id="contact-form-container">
+          <form action="">
+            <div class="form-heading">Contact Form</div>
+            <div class="flex-styles">
+              <div class="form-element-container">
+                <div>
+                  <label for="first-name"> First name </label>
+                </div>
+                <div>
+                  <input type="text" name="firstName" id="firstName" required />
+                </div>
+              </div>
+              <div class="form-element-container">
+                <div>
+                  <label for="last-name"> Last name </label>
+                </div>
+                <div>
+                  <input type="text" name="last-name" id="lastName" required />
+                </div>
+              </div>
+            </div>
+
+            <div class="flex-styles">
+              <div class="form-element-container">
+                <div>
+                  <label for="email">Email*</label>
+                </div>
+                <div>
+                  <input type="email" name="email" id="email" required />
+                </div>
+              </div>
+              <div class="form-element-container">
+                <div>
+                  <label for="subject">Subject</label>
+                </div>
+                <div>
+                  <input type="text" name="subject" id="subject" />
+                </div>
+              </div>
+            </div>
+            <div class="flex-styles">
+              <div class="form-element-container">
+                <div>
+                  <label for="message">Message</label>
+                </div>
+                <div>
+                  <textarea
+                    name="message"
+                    id="message"
+                    cols="30"
+                    rows="10"
+                  ></textarea>
+                </div>
+              </div>
+              <div class="form-submit-button-container form-element-container">
+                <button type="submit" class="form-submit-button">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+      <footer>
+        <div class="site-links">
+          <div>
+            <div>
+              <a href="../index.html">Home</a>
+            </div>
+            <div>
+              <a href="#">Contact us</a>
+            </div>
+          </div>
+        </div>
+        <div class="social-links">
+          <div>
+            <a href="#"><i class="bi-linkedin"></i></a>
+          </div>
+          <div>
+            <a href="#"><i class="bi-github"></i></a>
+          </div>
+          <div>
+            <a href="%"><i class="bi-twitter"></i></a>
+          </div>
+        </div>
+        <div class="creator-name">
+          <div>Created by Shorya goyal</div>
+        </div>
+      </footer>
+    </div>
+    <script src="../jsFiles/navbar.js"></script>
+  </body>
+</html>

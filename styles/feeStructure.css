@@ -1,0 +1,74 @@
+.fee-plans {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  padding: 2% 0%;
+  margin-bottom: 5vh;
+}
+.basic-plan,
+.premium-plan {
+  flex: 1;
+  display: flex;
+  padding: 10% 0%;
+  margin: 0% 2%;
+  border: 1px solid black;
+  justify-content: center;
+  background-color: #1d3557;
+  color: white;
+}
+
+.plan-heading {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.plan-price {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.plan-feature {
+  font-size: 1.3rem;
+}
+
+.plan-feature-present {
+  color: rgb(142, 247, 142);
+  font-weight: 600;
+}
+
+.plan-feature-absent {
+  color: rgb(254, 131, 131);
+  font-weight: 800;
+}
+.plan-feature > div {
+  margin-bottom: 5px;
+}
+
+.plan-price-rupee-symbol,
+.plan-price-month {
+  font-size: 2rem;
+}
+@media (max-width: 992px) {
+  .fee-plans {
+    width: 90%;
+  }
+}
+@media (max-width: 768px) {
+  .fee-plans {
+    width: 95%;
+  }
+  .basic-plan,
+  .premium-plan {
+    margin: 0% 1%;
+  }
+}
+@media (max-width: 600px) {
+  .fee-plans {
+    display: block;
+    width: 70%;
+  }
+  .basic-plan {
+    margin-bottom: 5vh;
+  }
+}

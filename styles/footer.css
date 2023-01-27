@@ -1,0 +1,41 @@
+footer {
+  background-color: #457b9d;
+  display: flex;
+  padding: 3rem 0rem;
+}
+.site-links,
+.social-links,
+.creator-name {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.social-links {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2rem;
+}
+.social-links a {
+  color: #ffff;
+}
+.site-links a {
+  text-decoration: none;
+  color: #ffff;
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+.creator-name {
+  color: #ffff;
+  font-size: 1.1rem;
+}
+@media (max-width: 600px) {
+  footer {
+    display: block;
+  }
+  .site-links,
+  .social-links,
+  .creator-name {
+    margin-bottom: 20px;
+  }
+}

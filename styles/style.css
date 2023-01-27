@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+.link-style {
+  text-decoration: none;
+  color: #ffffff;
+}
+.achievements-heading {
+  font-size: 3rem;
+}
+.company-name {
+  text-align: center;
+  background-color: #1d3557;
+  color: #ffff;
+}
+.company-name h1 {
+  font-size: 4vw;
+  margin-bottom: 3vh;
+}
+.company-name p {
+  font-size: 1.7vw;
+  padding-bottom: 5vh;
+}
+.achievements {
+  display: flex;
+  margin: 0 auto;
+  width: 70%;
+  padding: 50px 0px;
+  margin-bottom: 8vh;
+}
+.section-heading {
+  text-align: center;
+  font-size: 3vw;
+  margin-bottom: 7vh;
+}
+.carousel-left-controller,
+.carousel-right-controller {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel-content {
+  flex: 5;
+}
+.achievements-list:nth-child(2),
+.achievements-list:nth-child(3) {
+  display: none;
+}
+.achievements-image {
+  margin: 0 auto;
+  width: 30%;
+  margin-bottom: 20px;
+}
+.achievements-image > img {
+  width: 100%;
+  border-radius: 50%;
+}
+.achievements-description {
+  margin: 0 auto;
+  font-size: 1.7vw;
+}
+.student-name {
+  font-size: 3vw;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.achievements-description ul {
+  margin-left: 15px;
+}
+.carousel-left-controller button,
+.carousel-right-controller button {
+  border-radius: 50%;
+  background-color: #a8dadc;
+  padding: 8%;
+  font-size: 2rem;
+}
+
+.carousel-left-controller button:hover,
+.carousel-right-controller button:hover {
+  cursor: pointer;
+  background-color: #ffff;
+  transition: 0.5s ease-in;
+}
+
+@media (max-width: 992px) {
+  .company-name p {
+    font-size: 2.5vw;
+  }
+  .company-name h1 {
+    font-size: 5vw;
+  }
+  .section-heading {
+    font-size: 4vw;
+  }
+  .achievements-description {
+    font-size: 2.5vw;
+  }
+  .student-name {
+    font-size: 4vw;
+  }
+}
+@media (max-width: 768px) {
+  .company-name p {
+    font-size: 3.5vw;
+  }
+  .company-name h1 {
+    font-size: 6vw;
+  }
+  .section-heading {
+    font-size: 5vw;
+  }
+  .achievements-description {
+    font-size: 3.5vw;
+  }
+  .achievements {
+    width: 90%;
+  }
+  .student-name {
+    font-size: 5vw;
+  }
+}
+@media (max-width: 600px) {
+  .company-name p {
+    font-size: 4vw;
+  }
+  .company-name h1 {
+    font-size: 8vw;
+  }
+  .section-heading {
+    font-size: 7vw;
+  }
+  .achievements-description {
+    font-size: 4vw;
+  }
+  .achievements {
+    width: 100%;
+  }
+  .carousel-left-controller,
+  .carousel-right-controller {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .carousel-content {
+    flex: 9;
+  }
+  .student-name {
+    font-size: 7vw;
+  }
+}
